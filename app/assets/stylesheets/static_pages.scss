@@ -3,15 +3,37 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 h1 {
-	color: red
+	color: #35421d;
+	padding-top: 1em;
+    padding-left: 1em;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2 {
+	color: grey;
+    padding-left: 1.2em;
+}
+
+p {
+    padding-top: 10px;
+    padding-left: 2.8em;
+}
+
+.contact ul {
+    padding-top: 30px;
+    padding-left: 65px;
+    color: black;
 }
 
 .nav_container {
-	background-color: red;
+	background-color: #696969;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-    color: grey;
+    color: #228B22;
     text-decoration: none;
 }
 
@@ -33,4 +55,36 @@ h1 {
 
 body {
 	padding-top: 50px;
+	background-color: #DCDCDC;
 }
+
+.index {
+    background-image: url("bike2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 0px;
+    padding-top: 0px;
+  	height: 630px;
+}
+
+.about {
+	height: 630px;
+	background-color: #ccd2c0;
+}
+
+.contact {
+    background-image: url("bike3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding:0px;
+    padding-top:0px;
+    height: 630px;
+}
+
+.footer_container {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
